@@ -6,25 +6,40 @@ import unittest
 from errors import ReqFieldMissingError, ServerError
 
 
-# Класс с тестами
 class TestClass(unittest.TestCase):
-    # тест коректного запроса
+    """
+    Класс с тестами
+    """
     def test_def_presense(self):
+        """
+        Тест коректного запроса
+        """
         test = create_presence('Guest')
-        test[TIME] = 1.1  # время необходимо приравнять принудительно иначе тест никогда не будет пройден
-        self.assertEqual(test, {ACTION: PRESENCE, TIME: 1.1, USER: {ACCOUNT_NAME: 'Guest'}})
+        test[TIME] = 1.1  # время необходимо приравнять принудительно
+        # иначе тест никогда не будет пройден
+        self.assertEqual(
+            test, {ACTION: PRESENCE, TIME: 1.1, USER: {ACCOUNT_NAME: 'Guest'}})
 
-    # тест корректтного разбора ответа 200
     def test_200_ans(self):
+        """
+        тест корректтного разбора ответа 200
+        """
         self.assertEqual(process_response_ans({RESPONSE: 200}), '200 : OK')
 
-    # тест корректного разбора 400
     def test_400_ans(self):
-        self.assertRaises(ServerError, process_response_ans , {RESPONSE: 400, ERROR: 'Bad Request'})
+        """
+        тест корректного разбора 400
+        """
+        self.assertRaises(
+            ServerError, process_response_ans,
+            {RESPONSE: 400, ERROR: 'Bad Request'})
 
-    # тест исключения без поля RESPONSE
     def test_no_response(self):
-        self.assertRaises(ReqFieldMissingError, process_response_ans, {ERROR: 'Bad Request'})
+        """
+        тест исключения без поля RESPONSE
+        """
+        self.assertRaises(
+            ReqFieldMissingError, process_response_ans, {ERROR: 'Bad Request'})
 
 
 if __name__ == '__main__':

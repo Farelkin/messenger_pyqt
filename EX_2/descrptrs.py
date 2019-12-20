@@ -1,16 +1,14 @@
 import logging
-logger = logging.getLogger('server')
+logger_server = logging.getLogger('server')
 
 
 class Port:
-    """
-    Дескриптор для описания порта:
-    """
+    """ Дескриптор для описания порта: """
     def __set__(self, instance, value):
         # instance - <__main__.Server object at 0x000000D582740C50>
         # value - 7777
         if not 1023 < value < 65536:
-            logger.critical(
+            logger_server.critical(
                 f'Попытка запуска сервера с указанием неподходящего порта '
                 f'{value}. Допустимы адреса с 1024 до 65535.')
             exit(1)
@@ -22,4 +20,3 @@ class Port:
         # owner - <class '__main__.Server'>
         # name - port
         self.name = name
-

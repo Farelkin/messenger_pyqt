@@ -40,14 +40,22 @@ class ClientSender(threading.Thread, metaclass=ClientMaker):
         и отправляет полученные данные на сервер.
         """
         to = input('Введите получателя сообщения: ')
-        message = input('Введите сообщение для отправки: ')
-        message_dict = {
-            ACTION: MESSAGE,
-            SENDER: self.account_name,
-            DESTINATION: to,
-            TIME: time.time(),
-            MESSAGE_TEXT: message
-        }
+        message_dict = {}
+        while True:
+            if to == self.account_name:
+                message = input('Введите сообщение для отправки: ')
+                message_dict = {
+                    ACTION: MESSAGE,
+                    SENDER: self.account_name,
+                    DESTINATION: to,
+                    TIME: time.time(),
+                    MESSAGE_TEXT: message
+                }
+                break
+            else:
+                print(f'пользователя {to} не существует')
+                to = input('Введите получателя сообщения: ')
+
         logger.debug(f'Сформирован словарь сообщения: {message_dict}')
         try:
             send_message(self.sock, message_dict)

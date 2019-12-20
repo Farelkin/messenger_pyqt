@@ -138,11 +138,9 @@ class Server(metaclass=ServerMaker):
         Обработчик сообщений от клиентов, принимает словарь - сообщение
         от клиента, проверяет корректность, отправляет
         словарь-ответ в случае необходимости.
-        :param message:
-        :param client:
-        :return:
         """
         logger.debug(f'Разбор сообщения от клиента : {message}')
+
         # Если это сообщение о присутствии, принимаем и отвечаем
         if ACTION in message and message[ACTION] == PRESENCE \
                 and TIME in message \
@@ -159,6 +157,7 @@ class Server(metaclass=ServerMaker):
                 self.clients.remove(client)
                 client.close()
             return
+
         # Если это сообщение, то добавляем его в очередь сообщений.
         # Ответ не требуется.
         elif ACTION in message and message[ACTION] == MESSAGE \
@@ -168,6 +167,7 @@ class Server(metaclass=ServerMaker):
                 and MESSAGE_TEXT in message:
             self.messages.append(message)
             return
+
         # Если клиент выходит
         elif ACTION in message and message[ACTION] == \
                 EXIT and ACCOUNT_NAME in message:
@@ -175,6 +175,7 @@ class Server(metaclass=ServerMaker):
             self.names[ACCOUNT_NAME].close()
             del self.names[ACCOUNT_NAME]
             return
+
         # Иначе отдаём Bad request
         else:
             response = RESPONSE_400

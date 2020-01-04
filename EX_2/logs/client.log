@@ -289,3 +289,300 @@ dsf
 2019-12-20 16:15:41,604 INFO client.py Получено сообщение от пользователя w:
 sdf
 2019-12-20 16:15:41,605 DEBUG decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=1020, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 60511), raddr=('127.0.0.1', 8888)>,) , {}. Вызов из модуля common.utils
+2020-01-04 15:35:21,803 DEBUG decos.py Была вызвана функция arg_parser c параметрами () , {}. Вызов из модуля __main__
+2020-01-04 15:35:21,804 DEBUG decos.py Была вызвана функция arg_parser c параметрами () , {}. Вызов из модуля __main__
+2020-01-04 15:35:21,808 INFO client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1 , порт: 8888, имя пользователя: test2
+2020-01-04 15:35:21,819 INFO client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1 , порт: 8888, имя пользователя: test1
+2020-01-04 15:35:21,840 DEBUG decos.py Была вызвана функция arg_parser c параметрами () , {}. Вызов из модуля __main__
+2020-01-04 15:35:21,843 INFO client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1 , порт: 8888, имя пользователя: test4
+2020-01-04 15:35:21,872 DEBUG decos.py Была вызвана функция arg_parser c параметрами () , {}. Вызов из модуля __main__
+2020-01-04 15:35:21,876 INFO client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1 , порт: 8888, имя пользователя: test3
+2020-01-04 15:35:21,915 DEBUG decos.py Была вызвана функция arg_parser c параметрами () , {}. Вызов из модуля __main__
+2020-01-04 15:35:21,924 INFO client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1 , порт: 8888, имя пользователя: test5
+2020-01-04 15:35:22,820 DEBUG decos.py Была вызвана функция create_presence c параметрами ('test2',) , {}. Вызов из модуля __main__
+2020-01-04 15:35:22,820 DEBUG client.py Сформировано presence сообщение для пользователя test2
+2020-01-04 15:35:22,821 DEBUG decos.py Была вызвана функция send_message c параметрами (<socket.socket fd=600, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 63231), raddr=('127.0.0.1', 8888)>, {'action': 'presence', 'time': 1578141322.8201108, 'user': {'account_name': 'test2'}}) , {}. Вызов из модуля common.utils
+2020-01-04 15:35:22,821 DEBUG decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=600, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 63231), raddr=('127.0.0.1', 8888)>,) , {}. Вызов из модуля common.utils
+2020-01-04 15:35:22,841 DEBUG decos.py Была вызвана функция create_presence c параметрами ('test1',) , {}. Вызов из модуля __main__
+2020-01-04 15:35:22,841 DEBUG client.py Сформировано presence сообщение для пользователя test1
+2020-01-04 15:35:22,841 DEBUG decos.py Была вызвана функция send_message c параметрами (<socket.socket fd=588, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 63232), raddr=('127.0.0.1', 8888)>, {'action': 'presence', 'time': 1578141322.8410966, 'user': {'account_name': 'test1'}}) , {}. Вызов из модуля common.utils
+2020-01-04 15:35:22,842 DEBUG decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=588, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 63232), raddr=('127.0.0.1', 8888)>,) , {}. Вызов из модуля common.utils
+2020-01-04 15:35:22,854 DEBUG decos.py Была вызвана функция create_presence c параметрами ('test4',) , {}. Вызов из модуля __main__
+2020-01-04 15:35:22,854 DEBUG client.py Сформировано presence сообщение для пользователя test4
+2020-01-04 15:35:22,854 DEBUG decos.py Была вызвана функция send_message c параметрами (<socket.socket fd=556, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 63233), raddr=('127.0.0.1', 8888)>, {'action': 'presence', 'time': 1578141322.85409, 'user': {'account_name': 'test4'}}) , {}. Вызов из модуля common.utils
+2020-01-04 15:35:22,855 DEBUG decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=556, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 63233), raddr=('127.0.0.1', 8888)>,) , {}. Вызов из модуля common.utils
+2020-01-04 15:35:22,873 DEBUG decos.py Была вызвана функция process_response_ans c параметрами ({'response': 200},) , {}. Вызов из модуля __main__
+2020-01-04 15:35:22,873 DEBUG client.py Разбор приветственного сообщения от сервера: {'response': 200}
+2020-01-04 15:35:22,873 INFO client.py Установлено соединение с сервером. Ответ сервера: 200 : OK
+2020-01-04 15:35:22,878 DEBUG decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=600, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 63231), raddr=('127.0.0.1', 8888)>,) , {}. Вызов из модуля common.utils
+2020-01-04 15:35:22,878 DEBUG client.py Запущены процессы
+2020-01-04 15:35:22,887 DEBUG decos.py Была вызвана функция create_presence c параметрами ('test3',) , {}. Вызов из модуля __main__
+2020-01-04 15:35:22,887 DEBUG client.py Сформировано presence сообщение для пользователя test3
+2020-01-04 15:35:22,887 DEBUG decos.py Была вызвана функция send_message c параметрами (<socket.socket fd=192, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 63234), raddr=('127.0.0.1', 8888)>, {'action': 'presence', 'time': 1578141322.8870714, 'user': {'account_name': 'test3'}}) , {}. Вызов из модуля common.utils
+2020-01-04 15:35:22,888 DEBUG decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=192, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 63234), raddr=('127.0.0.1', 8888)>,) , {}. Вызов из модуля common.utils
+2020-01-04 15:35:22,925 DEBUG decos.py Была вызвана функция process_response_ans c параметрами ({'response': 200},) , {}. Вызов из модуля __main__
+2020-01-04 15:35:22,925 DEBUG client.py Разбор приветственного сообщения от сервера: {'response': 200}
+2020-01-04 15:35:22,925 INFO client.py Установлено соединение с сервером. Ответ сервера: 200 : OK
+2020-01-04 15:35:22,928 DEBUG decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=588, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 63232), raddr=('127.0.0.1', 8888)>,) , {}. Вызов из модуля common.utils
+2020-01-04 15:35:22,929 DEBUG client.py Запущены процессы
+2020-01-04 15:35:22,947 DEBUG decos.py Была вызвана функция create_presence c параметрами ('test5',) , {}. Вызов из модуля __main__
+2020-01-04 15:35:22,947 DEBUG client.py Сформировано presence сообщение для пользователя test5
+2020-01-04 15:35:22,947 DEBUG decos.py Была вызвана функция send_message c параметрами (<socket.socket fd=640, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 63235), raddr=('127.0.0.1', 8888)>, {'action': 'presence', 'time': 1578141322.9470332, 'user': {'account_name': 'test5'}}) , {}. Вызов из модуля common.utils
+2020-01-04 15:35:22,948 DEBUG decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=640, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 63235), raddr=('127.0.0.1', 8888)>,) , {}. Вызов из модуля common.utils
+2020-01-04 15:35:22,971 DEBUG decos.py Была вызвана функция process_response_ans c параметрами ({'response': 200},) , {}. Вызов из модуля __main__
+2020-01-04 15:35:22,972 DEBUG client.py Разбор приветственного сообщения от сервера: {'response': 200}
+2020-01-04 15:35:22,972 INFO client.py Установлено соединение с сервером. Ответ сервера: 200 : OK
+2020-01-04 15:35:22,975 DEBUG decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=556, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 63233), raddr=('127.0.0.1', 8888)>,) , {}. Вызов из модуля common.utils
+2020-01-04 15:35:22,975 DEBUG client.py Запущены процессы
+2020-01-04 15:35:23,013 DEBUG decos.py Была вызвана функция process_response_ans c параметрами ({'response': 200},) , {}. Вызов из модуля __main__
+2020-01-04 15:35:23,013 DEBUG client.py Разбор приветственного сообщения от сервера: {'response': 200}
+2020-01-04 15:35:23,013 INFO client.py Установлено соединение с сервером. Ответ сервера: 200 : OK
+2020-01-04 15:35:23,018 DEBUG decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=192, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 63234), raddr=('127.0.0.1', 8888)>,) , {}. Вызов из модуля common.utils
+2020-01-04 15:35:23,019 DEBUG client.py Запущены процессы
+2020-01-04 15:35:23,056 DEBUG decos.py Была вызвана функция process_response_ans c параметрами ({'response': 200},) , {}. Вызов из модуля __main__
+2020-01-04 15:35:23,056 DEBUG client.py Разбор приветственного сообщения от сервера: {'response': 200}
+2020-01-04 15:35:23,056 INFO client.py Установлено соединение с сервером. Ответ сервера: 200 : OK
+2020-01-04 15:35:23,059 DEBUG decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=640, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 63235), raddr=('127.0.0.1', 8888)>,) , {}. Вызов из модуля common.utils
+2020-01-04 15:35:23,060 DEBUG client.py Запущены процессы
+2020-01-04 15:37:06,800 DEBUG client.py Сформирован словарь сообщения: {'action': 'message', 'from': 'test4', 'to': 'test4', 'time': 1578141426.800808, 'mess_text': 'dfgl'}
+2020-01-04 15:37:06,801 DEBUG decos.py Была вызвана функция send_message c параметрами (<socket.socket fd=556, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 63233), raddr=('127.0.0.1', 8888)>, {'action': 'message', 'from': 'test4', 'to': 'test4', 'time': 1578141426.800808, 'mess_text': 'dfgl'}) , {}. Вызов из модуля common.utils
+2020-01-04 15:37:06,801 INFO client.py Отправлено сообщение для пользователя test4
+2020-01-04 15:37:07,226 INFO client.py Получено сообщение от пользователя test4:
+dfgl
+2020-01-04 15:37:07,227 DEBUG decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=556, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 63233), raddr=('127.0.0.1', 8888)>,) , {}. Вызов из модуля common.utils
+2020-01-04 15:37:33,515 CRITICAL client.py Потеряно соединение с сервером.
+2020-01-04 17:59:59,269 DEBUG decos.py Была вызвана функция arg_parser c параметрами () , {}. Вызов из модуля __main__
+2020-01-04 18:00:03,220 INFO client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1 , порт: 8888, имя пользователя: test1
+2020-01-04 18:00:03,229 DEBUG decos.py Была вызвана функция create_presence c параметрами ('test1',) , {}. Вызов из модуля __main__
+2020-01-04 18:00:03,229 DEBUG client.py Сформировано presence сообщение для пользователя test1
+2020-01-04 18:00:03,229 DEBUG decos.py Была вызвана функция send_message c параметрами (<socket.socket fd=596, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49357), raddr=('127.0.0.1', 8888)>, {'action': 'presence', 'time': 1578150003.2293942, 'user': {'account_name': 'test1'}}) , {}. Вызов из модуля common.utils
+2020-01-04 18:00:03,230 DEBUG decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=596, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49357), raddr=('127.0.0.1', 8888)>,) , {}. Вызов из модуля common.utils
+2020-01-04 18:00:03,731 DEBUG decos.py Была вызвана функция process_response_ans c параметрами ({'response': 200},) , {}. Вызов из модуля __main__
+2020-01-04 18:00:03,731 DEBUG client.py Разбор приветственного сообщения от сервера: {'response': 200}
+2020-01-04 18:00:03,732 INFO client.py Установлено соединение с сервером. Ответ сервера: 200 : OK
+2020-01-04 18:00:03,734 DEBUG decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=596, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49357), raddr=('127.0.0.1', 8888)>,) , {}. Вызов из модуля common.utils
+2020-01-04 18:00:03,735 DEBUG client.py Запущены процессы
+2020-01-04 18:01:10,416 DEBUG client.py Сформирован словарь сообщения: {'action': 'message', 'from': 'test1', 'to': 'test1', 'time': 1578150070.4169278, 'mess_text': 'sdfsd'}
+2020-01-04 18:01:10,418 DEBUG decos.py Была вызвана функция send_message c параметрами (<socket.socket fd=596, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49357), raddr=('127.0.0.1', 8888)>, {'action': 'message', 'from': 'test1', 'to': 'test1', 'time': 1578150070.4169278, 'mess_text': 'sdfsd'}) , {}. Вызов из модуля common.utils
+2020-01-04 18:01:10,418 INFO client.py Отправлено сообщение для пользователя test1
+2020-01-04 18:01:10,824 INFO client.py Получено сообщение от пользователя test1:
+sdfsd
+2020-01-04 18:01:10,824 DEBUG decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=596, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49357), raddr=('127.0.0.1', 8888)>,) , {}. Вызов из модуля common.utils
+2020-01-04 18:01:24,314 CRITICAL client.py Потеряно соединение с сервером.
+2020-01-04 18:01:48,078 DEBUG decos.py Была вызвана функция arg_parser c параметрами () , {}. Вызов из модуля __main__
+2020-01-04 18:01:48,081 INFO client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1 , порт: 8888, имя пользователя: test1
+2020-01-04 18:01:48,204 DEBUG decos.py Была вызвана функция arg_parser c параметрами () , {}. Вызов из модуля __main__
+2020-01-04 18:01:48,209 INFO client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1 , порт: 8888, имя пользователя: test2
+2020-01-04 18:01:49,598 DEBUG decos.py Была вызвана функция create_presence c параметрами ('test1',) , {}. Вызов из модуля __main__
+2020-01-04 18:01:49,598 DEBUG client.py Сформировано presence сообщение для пользователя test1
+2020-01-04 18:01:49,598 DEBUG decos.py Была вызвана функция send_message c параметрами (<socket.socket fd=544, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49374), raddr=('127.0.0.1', 8888)>, {'action': 'presence', 'time': 1578150109.5987453, 'user': {'account_name': 'test1'}}) , {}. Вызов из модуля common.utils
+2020-01-04 18:01:49,599 DEBUG decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=544, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49374), raddr=('127.0.0.1', 8888)>,) , {}. Вызов из модуля common.utils
+2020-01-04 18:01:49,605 DEBUG decos.py Была вызвана функция process_response_ans c параметрами ({'response': 200},) , {}. Вызов из модуля __main__
+2020-01-04 18:01:49,605 DEBUG client.py Разбор приветственного сообщения от сервера: {'response': 200}
+2020-01-04 18:01:49,605 INFO client.py Установлено соединение с сервером. Ответ сервера: 200 : OK
+2020-01-04 18:01:49,609 DEBUG decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=544, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49374), raddr=('127.0.0.1', 8888)>,) , {}. Вызов из модуля common.utils
+2020-01-04 18:01:49,609 DEBUG client.py Запущены процессы
+2020-01-04 18:01:49,727 DEBUG decos.py Была вызвана функция create_presence c параметрами ('test2',) , {}. Вызов из модуля __main__
+2020-01-04 18:01:49,727 DEBUG client.py Сформировано presence сообщение для пользователя test2
+2020-01-04 18:01:49,727 DEBUG decos.py Была вызвана функция send_message c параметрами (<socket.socket fd=544, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49375), raddr=('127.0.0.1', 8888)>, {'action': 'presence', 'time': 1578150109.7276657, 'user': {'account_name': 'test2'}}) , {}. Вызов из модуля common.utils
+2020-01-04 18:01:49,728 DEBUG decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=544, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49375), raddr=('127.0.0.1', 8888)>,) , {}. Вызов из модуля common.utils
+2020-01-04 18:01:50,234 DEBUG decos.py Была вызвана функция process_response_ans c параметрами ({'response': 200},) , {}. Вызов из модуля __main__
+2020-01-04 18:01:50,234 DEBUG client.py Разбор приветственного сообщения от сервера: {'response': 200}
+2020-01-04 18:01:50,234 INFO client.py Установлено соединение с сервером. Ответ сервера: 200 : OK
+2020-01-04 18:01:50,238 DEBUG decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=544, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49375), raddr=('127.0.0.1', 8888)>,) , {}. Вызов из модуля common.utils
+2020-01-04 18:01:50,238 DEBUG client.py Запущены процессы
+2020-01-04 18:02:05,712 DEBUG client.py Сформирован словарь сообщения: {'action': 'message', 'from': 'test2', 'to': 'test2', 'time': 1578150125.7128, 'mess_text': 'sdfk'}
+2020-01-04 18:02:05,713 DEBUG decos.py Была вызвана функция send_message c параметрами (<socket.socket fd=544, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49375), raddr=('127.0.0.1', 8888)>, {'action': 'message', 'from': 'test2', 'to': 'test2', 'time': 1578150125.7128, 'mess_text': 'sdfk'}) , {}. Вызов из модуля common.utils
+2020-01-04 18:02:05,713 INFO client.py Отправлено сообщение для пользователя test2
+2020-01-04 18:02:05,791 INFO client.py Получено сообщение от пользователя test2:
+sdfk
+2020-01-04 18:02:05,791 DEBUG decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=544, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49375), raddr=('127.0.0.1', 8888)>,) , {}. Вызов из модуля common.utils
+2020-01-04 18:03:48,777 DEBUG decos.py Была вызвана функция arg_parser c параметрами () , {}. Вызов из модуля __main__
+2020-01-04 18:03:48,779 INFO client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1 , порт: 8888, имя пользователя: test1
+2020-01-04 18:03:48,798 DEBUG decos.py Была вызвана функция arg_parser c параметрами () , {}. Вызов из модуля __main__
+2020-01-04 18:03:48,801 INFO client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1 , порт: 8888, имя пользователя: test2
+2020-01-04 18:03:49,788 DEBUG decos.py Была вызвана функция create_presence c параметрами ('test1',) , {}. Вызов из модуля __main__
+2020-01-04 18:03:49,788 DEBUG client.py Сформировано presence сообщение для пользователя test1
+2020-01-04 18:03:49,788 DEBUG decos.py Была вызвана функция send_message c параметрами (<socket.socket fd=484, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49391), raddr=('127.0.0.1', 8888)>, {'action': 'presence', 'time': 1578150229.7885664, 'user': {'account_name': 'test1'}}) , {}. Вызов из модуля common.utils
+2020-01-04 18:03:49,789 DEBUG decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=484, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49391), raddr=('127.0.0.1', 8888)>,) , {}. Вызов из модуля common.utils
+2020-01-04 18:03:49,798 CRITICAL client.py Не удалось подключиться к серверу 127.0.0.1:8888, конечный компьютер отверг запрос на подключение.
+2020-01-04 18:03:50,810 CRITICAL client.py Не удалось подключиться к серверу 127.0.0.1:8888, конечный компьютер отверг запрос на подключение.
+2020-01-04 18:04:01,991 DEBUG decos.py Была вызвана функция arg_parser c параметрами () , {}. Вызов из модуля __main__
+2020-01-04 18:04:01,994 INFO client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1 , порт: 8888, имя пользователя: test2
+2020-01-04 18:04:02,010 DEBUG decos.py Была вызвана функция arg_parser c параметрами () , {}. Вызов из модуля __main__
+2020-01-04 18:04:02,012 INFO client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1 , порт: 8888, имя пользователя: test1
+2020-01-04 18:04:03,003 DEBUG decos.py Была вызвана функция create_presence c параметрами ('test2',) , {}. Вызов из модуля __main__
+2020-01-04 18:04:03,003 DEBUG client.py Сформировано presence сообщение для пользователя test2
+2020-01-04 18:04:03,003 DEBUG decos.py Была вызвана функция send_message c параметрами (<socket.socket fd=508, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49395), raddr=('127.0.0.1', 8888)>, {'action': 'presence', 'time': 1578150243.00341, 'user': {'account_name': 'test2'}}) , {}. Вызов из модуля common.utils
+2020-01-04 18:04:03,004 DEBUG decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=508, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49395), raddr=('127.0.0.1', 8888)>,) , {}. Вызов из модуля common.utils
+2020-01-04 18:04:03,013 CRITICAL client.py Не удалось подключиться к серверу 127.0.0.1:8888, конечный компьютер отверг запрос на подключение.
+2020-01-04 18:04:04,020 CRITICAL client.py Не удалось подключиться к серверу 127.0.0.1:8888, конечный компьютер отверг запрос на подключение.
+2020-01-04 18:05:20,738 DEBUG decos.py Была вызвана функция arg_parser c параметрами () , {}. Вызов из модуля __main__
+2020-01-04 18:05:23,898 INFO client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1 , порт: 8888, имя пользователя: test1
+2020-01-04 18:05:23,906 DEBUG decos.py Была вызвана функция create_presence c параметрами ('test1',) , {}. Вызов из модуля __main__
+2020-01-04 18:05:23,906 DEBUG client.py Сформировано presence сообщение для пользователя test1
+2020-01-04 18:05:23,906 DEBUG decos.py Была вызвана функция send_message c параметрами (<socket.socket fd=620, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49403), raddr=('127.0.0.1', 8888)>, {'action': 'presence', 'time': 1578150323.9064791, 'user': {'account_name': 'test1'}}) , {}. Вызов из модуля common.utils
+2020-01-04 18:05:23,907 DEBUG decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=620, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49403), raddr=('127.0.0.1', 8888)>,) , {}. Вызов из модуля common.utils
+2020-01-04 18:05:24,408 DEBUG decos.py Была вызвана функция process_response_ans c параметрами ({'response': 200},) , {}. Вызов из модуля __main__
+2020-01-04 18:05:24,408 DEBUG client.py Разбор приветственного сообщения от сервера: {'response': 200}
+2020-01-04 18:05:24,408 INFO client.py Установлено соединение с сервером. Ответ сервера: 200 : OK
+2020-01-04 18:05:24,410 DEBUG client.py Запущены процессы
+2020-01-04 18:05:24,411 DEBUG decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=620, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49403), raddr=('127.0.0.1', 8888)>,) , {}. Вызов из модуля common.utils
+2020-01-04 18:05:38,360 CRITICAL client.py Потеряно соединение с сервером.
+2020-01-04 18:07:06,916 DEBUG decos.py Была вызвана функция arg_parser c параметрами () , {}. Вызов из модуля __main__
+2020-01-04 18:07:10,048 INFO client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1 , порт: 8888, имя пользователя: test1
+2020-01-04 18:07:10,055 DEBUG decos.py Была вызвана функция create_presence c параметрами ('test1',) , {}. Вызов из модуля __main__
+2020-01-04 18:07:10,056 DEBUG client.py Сформировано presence сообщение для пользователя test1
+2020-01-04 18:07:10,056 DEBUG decos.py Была вызвана функция send_message c параметрами (<socket.socket fd=648, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49461), raddr=('127.0.0.1', 8888)>, {'action': 'presence', 'time': 1578150430.056965, 'user': {'account_name': 'test1'}}) , {}. Вызов из модуля common.utils
+2020-01-04 18:07:10,056 DEBUG decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=648, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49461), raddr=('127.0.0.1', 8888)>,) , {}. Вызов из модуля common.utils
+2020-01-04 18:07:10,558 DEBUG decos.py Была вызвана функция process_response_ans c параметрами ({'response': 200},) , {}. Вызов из модуля __main__
+2020-01-04 18:07:10,558 DEBUG client.py Разбор приветственного сообщения от сервера: {'response': 200}
+2020-01-04 18:07:10,558 INFO client.py Установлено соединение с сервером. Ответ сервера: 200 : OK
+2020-01-04 18:07:10,561 DEBUG decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=648, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49461), raddr=('127.0.0.1', 8888)>,) , {}. Вызов из модуля common.utils
+2020-01-04 18:07:10,561 DEBUG client.py Запущены процессы
+2020-01-04 18:07:19,526 DEBUG client.py Сформирован словарь сообщения: {'action': 'message', 'from': 'test1', 'to': 'test1', 'time': 1578150439.5261211, 'mess_text': 'sdf'}
+2020-01-04 18:07:19,527 DEBUG decos.py Была вызвана функция send_message c параметрами (<socket.socket fd=648, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49461), raddr=('127.0.0.1', 8888)>, {'action': 'message', 'from': 'test1', 'to': 'test1', 'time': 1578150439.5261211, 'mess_text': 'sdf'}) , {}. Вызов из модуля common.utils
+2020-01-04 18:07:19,527 INFO client.py Отправлено сообщение для пользователя test1
+2020-01-04 18:07:19,572 INFO client.py Получено сообщение от пользователя test1:
+sdf
+2020-01-04 18:07:19,572 DEBUG decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=648, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49461), raddr=('127.0.0.1', 8888)>,) , {}. Вызов из модуля common.utils
+2020-01-04 18:08:46,681 CRITICAL client.py Потеряно соединение с сервером.
+2020-01-04 18:08:51,293 DEBUG decos.py Была вызвана функция arg_parser c параметрами () , {}. Вызов из модуля __main__
+2020-01-04 18:08:58,384 INFO client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1 , порт: 8888, имя пользователя: test1
+2020-01-04 18:08:58,392 DEBUG decos.py Была вызвана функция create_presence c параметрами ('test1',) , {}. Вызов из модуля __main__
+2020-01-04 18:08:58,392 DEBUG client.py Сформировано presence сообщение для пользователя test1
+2020-01-04 18:08:58,392 DEBUG decos.py Была вызвана функция send_message c параметрами (<socket.socket fd=684, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49511), raddr=('127.0.0.1', 8888)>, {'action': 'presence', 'time': 1578150538.3921034, 'user': {'account_name': 'test1'}}) , {}. Вызов из модуля common.utils
+2020-01-04 18:08:58,393 DEBUG decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=684, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49511), raddr=('127.0.0.1', 8888)>,) , {}. Вызов из модуля common.utils
+2020-01-04 18:08:58,893 DEBUG decos.py Была вызвана функция process_response_ans c параметрами ({'response': 200},) , {}. Вызов из модуля __main__
+2020-01-04 18:08:58,893 DEBUG client.py Разбор приветственного сообщения от сервера: {'response': 200}
+2020-01-04 18:08:58,893 INFO client.py Установлено соединение с сервером. Ответ сервера: 200 : OK
+2020-01-04 18:08:58,895 DEBUG decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=684, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49511), raddr=('127.0.0.1', 8888)>,) , {}. Вызов из модуля common.utils
+2020-01-04 18:08:58,895 DEBUG client.py Запущены процессы
+2020-01-04 18:09:23,373 DEBUG client.py Сформирован словарь сообщения: {'action': 'message', 'from': 'test1', 'to': 'test1', 'time': 1578150563.373685, 'mess_text': 'qw'}
+2020-01-04 18:09:23,374 DEBUG decos.py Была вызвана функция send_message c параметрами (<socket.socket fd=684, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49511), raddr=('127.0.0.1', 8888)>, {'action': 'message', 'from': 'test1', 'to': 'test1', 'time': 1578150563.373685, 'mess_text': 'qw'}) , {}. Вызов из модуля common.utils
+2020-01-04 18:09:23,375 INFO client.py Отправлено сообщение для пользователя test1
+2020-01-04 18:09:23,428 INFO client.py Получено сообщение от пользователя test1:
+qw
+2020-01-04 18:09:23,428 DEBUG decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=684, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49511), raddr=('127.0.0.1', 8888)>,) , {}. Вызов из модуля common.utils
+2020-01-04 18:09:57,094 CRITICAL client.py Потеряно соединение с сервером.
+2020-01-04 18:30:07,081 DEBUG decos.py Была вызвана функция arg_parser c параметрами () , {}. Вызов из модуля __main__
+2020-01-04 18:30:12,206 INFO client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1 , порт: 8888, имя пользователя: test1
+2020-01-04 18:30:12,214 DEBUG decos.py Была вызвана функция create_presence c параметрами ('test1',) , {}. Вызов из модуля __main__
+2020-01-04 18:30:12,214 DEBUG client.py Сформировано presence сообщение для пользователя test1
+2020-01-04 18:30:12,214 DEBUG decos.py Была вызвана функция send_message c параметрами (<socket.socket fd=600, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 50317), raddr=('127.0.0.1', 8888)>, {'action': 'presence', 'time': 1578151812.2149148, 'user': {'account_name': 'test1'}}) , {}. Вызов из модуля common.utils
+2020-01-04 18:30:12,214 DEBUG decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=600, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 50317), raddr=('127.0.0.1', 8888)>,) , {}. Вызов из модуля common.utils
+2020-01-04 18:30:12,715 DEBUG decos.py Была вызвана функция process_response_ans c параметрами ({'response': 200},) , {}. Вызов из модуля __main__
+2020-01-04 18:30:12,716 DEBUG client.py Разбор приветственного сообщения от сервера: {'response': 200}
+2020-01-04 18:30:12,716 INFO client.py Установлено соединение с сервером. Ответ сервера: 200 : OK
+2020-01-04 18:30:12,718 DEBUG decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=600, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 50317), raddr=('127.0.0.1', 8888)>,) , {}. Вызов из модуля common.utils
+2020-01-04 18:30:12,718 DEBUG client.py Запущены процессы
+2020-01-04 18:30:26,291 DEBUG client.py Сформирован словарь сообщения: {'action': 'message', 'from': 'test1', 'to': 'test2', 'time': 1578151826.2912276, 'mess_text': 'sdf'}
+2020-01-04 18:30:26,292 DEBUG decos.py Была вызвана функция send_message c параметрами (<socket.socket fd=600, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 50317), raddr=('127.0.0.1', 8888)>, {'action': 'message', 'from': 'test1', 'to': 'test2', 'time': 1578151826.2912276, 'mess_text': 'sdf'}) , {}. Вызов из модуля common.utils
+2020-01-04 18:30:26,292 INFO client.py Отправлено сообщение для пользователя test2
+2020-01-04 18:36:01,311 CRITICAL client.py Потеряно соединение с сервером.
+2020-01-04 18:38:02,598 DEBUG decos.py Была вызвана функция arg_parser c параметрами () , {}. Вызов из модуля __main__
+2020-01-04 18:38:07,061 INFO client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1 , порт: 8888, имя пользователя: test1
+2020-01-04 18:38:07,070 DEBUG decos.py Была вызвана функция create_presence c параметрами ('test1',) , {}. Вызов из модуля __main__
+2020-01-04 18:38:07,070 DEBUG client.py Сформировано presence сообщение для пользователя test1
+2020-01-04 18:38:07,070 DEBUG decos.py Была вызвана функция send_message c параметрами (<socket.socket fd=532, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 50374), raddr=('127.0.0.1', 8888)>, {'action': 'presence', 'time': 1578152287.0708437, 'user': {'account_name': 'test1'}}) , {}. Вызов из модуля common.utils
+2020-01-04 18:38:07,070 DEBUG decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=532, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 50374), raddr=('127.0.0.1', 8888)>,) , {}. Вызов из модуля common.utils
+2020-01-04 18:38:07,572 DEBUG decos.py Была вызвана функция process_response_ans c параметрами ({'response': 200},) , {}. Вызов из модуля __main__
+2020-01-04 18:38:07,572 DEBUG client.py Разбор приветственного сообщения от сервера: {'response': 200}
+2020-01-04 18:38:07,572 INFO client.py Установлено соединение с сервером. Ответ сервера: 200 : OK
+2020-01-04 18:38:07,574 DEBUG decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=532, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 50374), raddr=('127.0.0.1', 8888)>,) , {}. Вызов из модуля common.utils
+2020-01-04 18:38:07,574 DEBUG client.py Запущены процессы
+2020-01-04 18:38:15,162 DEBUG client.py Сформирован словарь сообщения: {'action': 'message', 'from': 'test1', 'to': 'test2', 'time': 1578152295.1628492, 'mess_text': 'sdf'}
+2020-01-04 18:38:15,164 DEBUG decos.py Была вызвана функция send_message c параметрами (<socket.socket fd=532, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 50374), raddr=('127.0.0.1', 8888)>, {'action': 'message', 'from': 'test1', 'to': 'test2', 'time': 1578152295.1628492, 'mess_text': 'sdf'}) , {}. Вызов из модуля common.utils
+2020-01-04 18:38:15,164 INFO client.py Отправлено сообщение для пользователя test2
+2020-01-04 18:38:15,588 CRITICAL client.py Потеряно соединение с сервером.
+2020-01-04 19:40:44,754 DEBUG decos.py Была вызвана функция arg_parser c параметрами () , {}. Вызов из модуля __main__
+2020-01-04 19:40:49,913 INFO client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1 , порт: 8888, имя пользователя: test1
+2020-01-04 19:40:49,920 DEBUG decos.py Была вызвана функция create_presence c параметрами ('test1',) , {}. Вызов из модуля __main__
+2020-01-04 19:40:49,920 DEBUG client.py Сформировано presence сообщение для пользователя test1
+2020-01-04 19:40:49,920 DEBUG decos.py Была вызвана функция send_message c параметрами (<socket.socket fd=480, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 51206), raddr=('127.0.0.1', 8888)>, {'action': 'presence', 'time': 1578156049.9206219, 'user': {'account_name': 'test1'}}) , {}. Вызов из модуля common.utils
+2020-01-04 19:40:49,921 DEBUG decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=480, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 51206), raddr=('127.0.0.1', 8888)>,) , {}. Вызов из модуля common.utils
+2020-01-04 19:40:50,423 DEBUG decos.py Была вызвана функция process_response_ans c параметрами ({'response': 200},) , {}. Вызов из модуля __main__
+2020-01-04 19:40:50,423 DEBUG client.py Разбор приветственного сообщения от сервера: {'response': 200}
+2020-01-04 19:40:50,423 INFO client.py Установлено соединение с сервером. Ответ сервера: 200 : OK
+2020-01-04 19:40:50,425 DEBUG decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=480, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 51206), raddr=('127.0.0.1', 8888)>,) , {}. Вызов из модуля common.utils
+2020-01-04 19:40:50,425 DEBUG client.py Запущены процессы
+2020-01-04 19:41:00,471 DEBUG client.py Сформирован словарь сообщения: {'action': 'message', 'from': 'test1', 'to': 'test2', 'time': 1578156060.4711106, 'mess_text': ';fgl'}
+2020-01-04 19:41:00,472 DEBUG decos.py Была вызвана функция send_message c параметрами (<socket.socket fd=480, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 51206), raddr=('127.0.0.1', 8888)>, {'action': 'message', 'from': 'test1', 'to': 'test2', 'time': 1578156060.4711106, 'mess_text': ';fgl'}) , {}. Вызов из модуля common.utils
+2020-01-04 19:41:00,472 INFO client.py Отправлено сообщение для пользователя test2
+2020-01-04 19:41:00,943 CRITICAL client.py Потеряно соединение с сервером.
+2020-01-04 19:43:50,997 DEBUG decos.py Была вызвана функция arg_parser c параметрами () , {}. Вызов из модуля __main__
+2020-01-04 19:43:53,390 INFO client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1 , порт: 8888, имя пользователя: test1
+2020-01-04 19:43:53,397 DEBUG decos.py Была вызвана функция create_presence c параметрами ('test1',) , {}. Вызов из модуля __main__
+2020-01-04 19:43:53,398 DEBUG client.py Сформировано presence сообщение для пользователя test1
+2020-01-04 19:43:53,398 DEBUG decos.py Была вызвана функция send_message c параметрами (<socket.socket fd=556, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 51231), raddr=('127.0.0.1', 8888)>, {'action': 'presence', 'time': 1578156233.398384, 'user': {'account_name': 'test1'}}) , {}. Вызов из модуля common.utils
+2020-01-04 19:43:53,398 DEBUG decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=556, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 51231), raddr=('127.0.0.1', 8888)>,) , {}. Вызов из модуля common.utils
+2020-01-04 19:43:53,899 DEBUG decos.py Была вызвана функция process_response_ans c параметрами ({'response': 200},) , {}. Вызов из модуля __main__
+2020-01-04 19:43:53,900 DEBUG client.py Разбор приветственного сообщения от сервера: {'response': 200}
+2020-01-04 19:43:53,900 INFO client.py Установлено соединение с сервером. Ответ сервера: 200 : OK
+2020-01-04 19:43:53,902 DEBUG decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=556, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 51231), raddr=('127.0.0.1', 8888)>,) , {}. Вызов из модуля common.utils
+2020-01-04 19:43:53,902 DEBUG client.py Запущены процессы
+2020-01-04 19:44:03,616 DEBUG client.py Сформирован словарь сообщения: {'action': 'message', 'from': 'test1', 'to': 'test2', 'time': 1578156243.616078, 'mess_text': 'sfd'}
+2020-01-04 19:44:03,617 DEBUG decos.py Была вызвана функция send_message c параметрами (<socket.socket fd=556, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 51231), raddr=('127.0.0.1', 8888)>, {'action': 'message', 'from': 'test1', 'to': 'test2', 'time': 1578156243.616078, 'mess_text': 'sfd'}) , {}. Вызов из модуля common.utils
+2020-01-04 19:44:03,618 INFO client.py Отправлено сообщение для пользователя test2
+2020-01-04 19:44:03,918 CRITICAL client.py Потеряно соединение с сервером.
+2020-01-04 19:50:20,567 DEBUG decos.py Была вызвана функция arg_parser c параметрами () , {}. Вызов из модуля __main__
+2020-01-04 19:50:23,856 INFO client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1 , порт: 8888, имя пользователя: test1
+2020-01-04 19:50:23,863 DEBUG decos.py Была вызвана функция create_presence c параметрами ('test1',) , {}. Вызов из модуля __main__
+2020-01-04 19:50:23,864 DEBUG client.py Сформировано presence сообщение для пользователя test1
+2020-01-04 19:50:23,864 DEBUG decos.py Была вызвана функция send_message c параметрами (<socket.socket fd=528, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 51291), raddr=('127.0.0.1', 8888)>, {'action': 'presence', 'time': 1578156623.8643963, 'user': {'account_name': 'test1'}}) , {}. Вызов из модуля common.utils
+2020-01-04 19:50:23,864 DEBUG decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=528, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 51291), raddr=('127.0.0.1', 8888)>,) , {}. Вызов из модуля common.utils
+2020-01-04 19:50:24,365 DEBUG decos.py Была вызвана функция process_response_ans c параметрами ({'response': 200},) , {}. Вызов из модуля __main__
+2020-01-04 19:50:24,366 DEBUG client.py Разбор приветственного сообщения от сервера: {'response': 200}
+2020-01-04 19:50:24,366 INFO client.py Установлено соединение с сервером. Ответ сервера: 200 : OK
+2020-01-04 19:50:24,368 DEBUG decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=528, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 51291), raddr=('127.0.0.1', 8888)>,) , {}. Вызов из модуля common.utils
+2020-01-04 19:50:24,368 DEBUG client.py Запущены процессы
+2020-01-04 19:50:33,066 DEBUG client.py Сформирован словарь сообщения: {'action': 'message', 'from': 'test1', 'to': 'test2', 'time': 1578156633.0667164, 'mess_text': 'sdf'}
+2020-01-04 19:50:33,067 DEBUG decos.py Была вызвана функция send_message c параметрами (<socket.socket fd=528, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 51291), raddr=('127.0.0.1', 8888)>, {'action': 'message', 'from': 'test1', 'to': 'test2', 'time': 1578156633.0667164, 'mess_text': 'sdf'}) , {}. Вызов из модуля common.utils
+2020-01-04 19:50:33,067 INFO client.py Отправлено сообщение для пользователя test2
+2020-01-04 19:50:33,384 CRITICAL client.py Потеряно соединение с сервером.
+2020-01-04 19:51:01,857 DEBUG decos.py Была вызвана функция arg_parser c параметрами () , {}. Вызов из модуля __main__
+2020-01-04 19:51:05,262 INFO client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1 , порт: 8888, имя пользователя: test1
+2020-01-04 19:51:05,268 DEBUG decos.py Была вызвана функция create_presence c параметрами ('test1',) , {}. Вызов из модуля __main__
+2020-01-04 19:51:05,269 DEBUG client.py Сформировано presence сообщение для пользователя test1
+2020-01-04 19:51:05,269 DEBUG decos.py Была вызвана функция send_message c параметрами (<socket.socket fd=500, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 51306), raddr=('127.0.0.1', 8888)>, {'action': 'presence', 'time': 1578156665.2698412, 'user': {'account_name': 'test1'}}) , {}. Вызов из модуля common.utils
+2020-01-04 19:51:05,269 DEBUG decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=500, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 51306), raddr=('127.0.0.1', 8888)>,) , {}. Вызов из модуля common.utils
+2020-01-04 19:51:05,770 DEBUG decos.py Была вызвана функция process_response_ans c параметрами ({'response': 200},) , {}. Вызов из модуля __main__
+2020-01-04 19:51:05,771 DEBUG client.py Разбор приветственного сообщения от сервера: {'response': 200}
+2020-01-04 19:51:05,771 INFO client.py Установлено соединение с сервером. Ответ сервера: 200 : OK
+2020-01-04 19:51:05,773 DEBUG decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=500, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 51306), raddr=('127.0.0.1', 8888)>,) , {}. Вызов из модуля common.utils
+2020-01-04 19:51:05,773 DEBUG client.py Запущены процессы
+2020-01-04 19:51:14,096 DEBUG client.py Сформирован словарь сообщения: {'action': 'message', 'from': 'test1', 'to': 'test2', 'time': 1578156674.0963938, 'mess_text': 'sfd'}
+2020-01-04 19:51:14,097 DEBUG decos.py Была вызвана функция send_message c параметрами (<socket.socket fd=500, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 51306), raddr=('127.0.0.1', 8888)>, {'action': 'message', 'from': 'test1', 'to': 'test2', 'time': 1578156674.0963938, 'mess_text': 'sfd'}) , {}. Вызов из модуля common.utils
+2020-01-04 19:51:14,097 INFO client.py Отправлено сообщение для пользователя test2
+2020-01-04 19:51:14,288 CRITICAL client.py Потеряно соединение с сервером.
+2020-01-04 19:52:10,562 DEBUG decos.py Была вызвана функция arg_parser c параметрами () , {}. Вызов из модуля __main__
+2020-01-04 19:52:12,820 INFO client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1 , порт: 8888, имя пользователя: test1
+2020-01-04 19:52:12,829 DEBUG decos.py Была вызвана функция create_presence c параметрами ('test1',) , {}. Вызов из модуля __main__
+2020-01-04 19:52:12,829 DEBUG client.py Сформировано presence сообщение для пользователя test1
+2020-01-04 19:52:12,829 DEBUG decos.py Была вызвана функция send_message c параметрами (<socket.socket fd=604, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 51318), raddr=('127.0.0.1', 8888)>, {'action': 'presence', 'time': 1578156732.8291447, 'user': {'account_name': 'test1'}}) , {}. Вызов из модуля common.utils
+2020-01-04 19:52:12,829 DEBUG decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=604, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 51318), raddr=('127.0.0.1', 8888)>,) , {}. Вызов из модуля common.utils
+2020-01-04 19:52:13,330 DEBUG decos.py Была вызвана функция process_response_ans c параметрами ({'response': 200},) , {}. Вызов из модуля __main__
+2020-01-04 19:52:13,330 DEBUG client.py Разбор приветственного сообщения от сервера: {'response': 200}
+2020-01-04 19:52:13,330 INFO client.py Установлено соединение с сервером. Ответ сервера: 200 : OK
+2020-01-04 19:52:13,332 DEBUG decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=604, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 51318), raddr=('127.0.0.1', 8888)>,) , {}. Вызов из модуля common.utils
+2020-01-04 19:52:13,333 DEBUG client.py Запущены процессы
+2020-01-04 19:52:22,538 DEBUG client.py Сформирован словарь сообщения: {'action': 'message', 'from': 'test1', 'to': 'test2', 'time': 1578156742.5371535, 'mess_text': 'sdf'}
+2020-01-04 19:52:22,539 DEBUG decos.py Была вызвана функция send_message c параметрами (<socket.socket fd=604, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 51318), raddr=('127.0.0.1', 8888)>, {'action': 'message', 'from': 'test1', 'to': 'test2', 'time': 1578156742.5371535, 'mess_text': 'sdf'}) , {}. Вызов из модуля common.utils
+2020-01-04 19:52:22,539 INFO client.py Отправлено сообщение для пользователя test2
+2020-01-04 19:52:22,851 CRITICAL client.py Потеряно соединение с сервером.
+2020-01-04 19:54:15,966 DEBUG decos.py Была вызвана функция arg_parser c параметрами () , {}. Вызов из модуля __main__
+2020-01-04 19:54:19,471 INFO client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1 , порт: 8888, имя пользователя: test1
+2020-01-04 19:54:19,478 DEBUG decos.py Была вызвана функция create_presence c параметрами ('test1',) , {}. Вызов из модуля __main__
+2020-01-04 19:54:19,478 DEBUG client.py Сформировано presence сообщение для пользователя test1
+2020-01-04 19:54:19,478 DEBUG decos.py Была вызвана функция send_message c параметрами (<socket.socket fd=592, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 51339), raddr=('127.0.0.1', 8888)>, {'action': 'presence', 'time': 1578156859.4789796, 'user': {'account_name': 'test1'}}) , {}. Вызов из модуля common.utils
+2020-01-04 19:54:19,479 DEBUG decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=592, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 51339), raddr=('127.0.0.1', 8888)>,) , {}. Вызов из модуля common.utils
+2020-01-04 19:54:19,979 DEBUG decos.py Была вызвана функция process_response_ans c параметрами ({'response': 200},) , {}. Вызов из модуля __main__
+2020-01-04 19:54:19,980 DEBUG client.py Разбор приветственного сообщения от сервера: {'response': 200}
+2020-01-04 19:54:19,980 INFO client.py Установлено соединение с сервером. Ответ сервера: 200 : OK
+2020-01-04 19:54:20,019 DEBUG decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=592, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 51339), raddr=('127.0.0.1', 8888)>,) , {}. Вызов из модуля common.utils
+2020-01-04 19:54:20,054 DEBUG client.py Запущены процессы
+2020-01-04 19:54:26,958 DEBUG client.py Сформирован словарь сообщения: {'action': 'message', 'from': 'test1', 'to': 'test2', 'time': 1578156866.958363, 'mess_text': 'sdf'}
+2020-01-04 19:54:26,959 DEBUG decos.py Была вызвана функция send_message c параметрами (<socket.socket fd=592, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 51339), raddr=('127.0.0.1', 8888)>, {'action': 'message', 'from': 'test1', 'to': 'test2', 'time': 1578156866.958363, 'mess_text': 'sdf'}) , {}. Вызов из модуля common.utils
+2020-01-04 19:54:26,960 INFO client.py Отправлено сообщение для пользователя test2
+2020-01-04 19:54:26,990 ERROR client.py Получено некорректное сообщение с сервера: {'MESSAGE_TEXT': 'Пользователь test2 не зарегистрирован на сервере, отправка сообщения невозможна.'}
+2020-01-04 19:54:26,990 DEBUG decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=592, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 51339), raddr=('127.0.0.1', 8888)>,) , {}. Вызов из модуля common.utils

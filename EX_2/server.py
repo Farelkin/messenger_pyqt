@@ -71,6 +71,7 @@ class Server(metaclass=ServerMaker):
             # Ждём подключения, если таймаут вышел, ловим исключение.
             try:
                 client, client_address = self.sock.accept()
+                print(f'client = {client}')
             except OSError:
                 pass
             else:
@@ -101,6 +102,8 @@ class Server(metaclass=ServerMaker):
                             f'отключился от сервера.')
                         self.clients.remove(client_with_message)
 
+                    print(f'client_with_message.getpeername() = '
+                          f'{client_with_message.getpeername()}')
             # Если есть сообщения, обрабатываем каждое.
             for message in self.messages:
                 try:
@@ -129,9 +132,12 @@ class Server(metaclass=ServerMaker):
                 and self.names[message[DESTINATION]] not in listen_socks:
             raise ConnectionError
         else:
-            logger.error(
-                f'Пользователь {message[DESTINATION]} не зарегистрирован '
-                f'на сервере, отправка сообщения невозможна.')
+            message_error = \
+                f'Пользователь {message[DESTINATION]} не зарегистрирован '\
+                f'на сервере, отправка сообщения невозможна.'
+            logger.error(message_error)
+            m2 = {'MESSAGE_TEXT': message_error}
+            send_message(self.names[message[SENDER]], m2)
 
     def process_client_message(self, message, client):
         """
